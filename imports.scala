@@ -1,7 +1,6 @@
-#! /usr/bin/env scala
-
 // imports
 import scala.actors._  // Actor
+import scala.actors.Actor._  // actions
 import scala.collection.JavaConversions._  // Java ops
 import scala.collection.mutable._  // ArrayBuffer, Buffer, HashMap, Map, ...
 import scala.io.Source._  // file ops
