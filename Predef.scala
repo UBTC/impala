@@ -1,7 +1,7 @@
 // imports
 import scala.actors._  // Actor
 import scala.actors.Actor._  // actions
-import scala.collection.immutable._  // Vector, List, Range, HashMap or HashSet
+import scala.collection.immutable.{Map => _, Set => _,_}  // Import Vector, List, Range; excludes Map, Set
 import scala.collection.mutable._  // ArrayBuffer, StringBuilder, HashMap or HashSet
 import scala.collection.JavaConversions._  // Java ops
 import scala.io.Source._  // file ops
