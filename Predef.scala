@@ -5,6 +5,7 @@ import scala.collection.immutable.{Map => _, Set => _,_}  // Import Vector, List
 import scala.collection.mutable._  // ArrayBuffer, StringBuilder, HashMap or HashSet
 import scala.collection.JavaConversions._  // Java ops
 import scala.io.Source._  // file ops
+import scala.language._  // postfixOps
 import scala.math._  // the math
 import scala.reflect.runtime.universe._  // reflection
 import scala.sys.process._  // work with shell
