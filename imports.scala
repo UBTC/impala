@@ -2,7 +2,7 @@
 // ...
 // import scala.actors._  // Actor
 // import scala.actors.Actor._  // actions
-import scala.collection.immutable.{Map => _, Set => _, _}  // Import Vector, List, Range; excludes Map, Set
+import scala.collection.immutable.{Map => _, Set => _, _}  // Vector, List, Range
 import scala.collection.mutable._  // ArrayBuffer, StringBuilder, HashMap or HashSet
 import scala.collection.JavaConversions._  // Java ops
 import scala.concurrent.duration._ // actor msg duration
@@ -27,3 +27,6 @@ import akka.util._
 // ...
 // import org.apache.spark._
 // import org.apache.spark.SparkContext._
+// ...
+import java.io.File // java files
+import java.io.PrintWriter // file writting
